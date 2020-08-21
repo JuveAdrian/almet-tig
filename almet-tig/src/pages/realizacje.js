@@ -7,7 +7,7 @@ class Realizajce extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'Realizacje'} />
                 Realizajce
                 <Footer />
             </div>

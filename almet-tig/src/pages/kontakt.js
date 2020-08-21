@@ -7,7 +7,7 @@ class Kontakt extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'Kontakt'} />
                 Kontakt
                 <Footer />
             </div>

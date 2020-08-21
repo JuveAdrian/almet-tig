@@ -7,7 +7,7 @@ class Refabrykacja extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'Refabrykacja'} />
                 Refabrykacja
                 <Footer />
             </div>

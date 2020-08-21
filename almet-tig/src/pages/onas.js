@@ -7,7 +7,7 @@ class Onas extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'O nas'} />
                 O nas
                 <Footer />
             </div>

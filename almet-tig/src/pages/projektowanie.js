@@ -7,7 +7,7 @@ class Projektowanie extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'Projektownie'} />
                 Projektowanie
                 <Footer />
             </div>

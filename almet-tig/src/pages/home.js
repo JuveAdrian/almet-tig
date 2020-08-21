@@ -7,8 +7,7 @@ class Home extends React.Component {
     render () {
         return (
             <div>
-                
-                <Navbar />
+                <Navbar pageName={'Strona Główna'} />
                 Home
                 <Footer />
             </div>

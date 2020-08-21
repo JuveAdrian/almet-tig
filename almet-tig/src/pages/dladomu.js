@@ -7,7 +7,7 @@ class DlaDomu extends React.Component {
     render () {
         return (
             <div>
-                <Navbar />
+                <Navbar pageName={'Dla domu'} />
                 Dla domu
                 <Footer />
             </div>
