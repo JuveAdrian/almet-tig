@@ -24,11 +24,12 @@ import {
    Info 
 } from '@material-ui/icons';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
         width: 250,
-        background: 'rgb(34, 34, 34)',
+        background: '#1769aa',
         height: '100%'
     },
     avatar: {
@@ -115,10 +116,10 @@ const Navbar = (props) => {
 
     return (
         <Box component="nav" >
-            <AppBar position="sticky" style={{background: '#222'}}>
+            <AppBar position="sticky" style={{background: '#1769aa'}}>
                 <Toolbar>
                     <IconButton onClick={toogleSlider("left", true)}>
-                        <ArrowBack style={{ color: '#455a64' }} />
+                        <MenuIcon style={{ color: '#ffffff' }} />
                     </IconButton>
                     <Typography variant="h5" style={{ color: "#ffffff" }}>
                         {props.pageName}
