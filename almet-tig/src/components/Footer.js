@@ -10,9 +10,9 @@ class Footer extends React.Component {
                 <Grid item container xs={11} style={{ borderRadius: '20px', border: '1px solid #ddd', backgroundColor: '#1769aa', margin: '20px 0' }}>
                     <Grid item xs={12} md={6} style={{ padding: '30px 20px', textAlign: 'center'}}>
                         <Typography variant="h6" style={{ color: '#ddd' }}>
-                            ZADZWOŃ DO NAS!
+                            ZADZWOŃ DO NAS !
                         </Typography>
-                        <Typography variant="h3" style={{ padding: '0 0 10px 0' }}> 
+                        <Typography variant="h3" style={{ padding: '20px 0 10px 0' }}> 
                             667-466-431
                         </Typography>
                         <Typography variant="body1" style={{ padding: '20px 60px', color: '#ddd' }}>
@@ -30,12 +30,12 @@ class Footer extends React.Component {
                     </Grid>
                     <Grid item xs={12} md={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row', flexWrap: 'nowrap' }}>
                         <Box>
-                            <form noValidate autoComplete="off">
-                                <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
-                                <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0' }}>Wyślij</Button>
+                            <form noValidate autoComplete="off" style={{ marginBottom: '40px' }}>
+                                <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
                             </form>
                         </Box>
                         
@@ -43,13 +43,13 @@ class Footer extends React.Component {
                 </Grid>
 
 
-                <Grid item xs={7} style={{ padding: '20px 30px' }}>
-                <Typography variant="h1">
+                <Grid item xs={10}  md={6} style={{ padding: '20px 30px' }}>
+                <Typography variant="h2">
                         Almet-Tig
                     </Typography>
                     
                 </Grid>
-                <Grid item container xs={5} style={{ padding: '0px 20px', backgroundColor: '#1769aa' }}>
+                <Grid item container xs={10} md={4} style={{ padding: '0px 20px', backgroundColor: '#1769aa' }}>
                     <Grid item xs={6} >
                         <Typography variant="h6">
                             Almet-Tig
