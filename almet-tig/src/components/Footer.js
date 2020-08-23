@@ -13,7 +13,7 @@ class Footer extends React.Component {
                             ZADZWOŃ DO NAS!
                         </Typography>
                         <Typography variant="h3" style={{ padding: '0 0 10px 0' }}> 
-                            531-319-480
+                            667-466-431
                         </Typography>
                         <Typography variant="body1" style={{ padding: '20px 60px', color: '#ddd' }}>
                         Nasza firma zajmuje się świadczeniem usług spawalniczych, głównie spawanie stali nierdzewnych, metodą TIG. Wykonujemy kompletne instalacje technologiczne oraz montaż i prefabrykację takich urządzeń jak zbiorniki, bloki zaworowe, układy pompowo zaworowe, skidy, platformy, suszarnie rozpyłowe, cyklony oraz wszelkiego rodzaju konstrukcje.
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                         <Typography variant="body1" style={{ color: '#ddd' }}>
                             ul. Polna 22G<br />
                             Sułów 56-300<br />
-                            NIP: 915 134 39 80<br />
+                            NIP: 916 134 39 80<br />
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row', flexWrap: 'nowrap' }}>
@@ -57,7 +57,7 @@ class Footer extends React.Component {
                         <Typography variant="body1" style={{ paddingTop: '10px' }}>
                             ul. Polna 22G<br />
                             Sułów 56-300<br />
-                            NIP: 915 134 39 80<br />
+                            NIP: 916 134 39 80<br />
                         </Typography>
                     </Grid>
                     <Grid item xs={6} >
