@@ -67,8 +67,8 @@ const menuItems = [
     },
     {
         listIcon: <Home />,
-        listText: 'Refabrykacja',
-        listLink: '/refabrykacja'
+        listText: 'Prefabrykacja',
+        listLink: '/prefabrykacja'
     },
     {
         listIcon: <Home />,

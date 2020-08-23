@@ -9,7 +9,7 @@ import Kontakt from '../pages/kontakt';
 import Onas from '../pages/onas';
 import Projektowanie from '../pages/projektowanie';
 import Realizacje from '../pages/realizacje';
-import Refabrykacja from '../pages/refabrykacja';
+import Prefabrykacja from '../pages/prefabrykacja';
 
 class App extends Component {
     render() {
@@ -22,7 +22,7 @@ class App extends Component {
                     <Route exact path="/o-nas" component={Onas} />
                     <Route exact path="/projektowanie" component={Projektowanie} />
                     <Route exact path="/realizacje" component={Realizacje} />
-                    <Route exact path="/refabrykacja" component={Refabrykacja} />
+                    <Route exact path="/prefabrykacja" component={Prefabrykacja} />
                 </Switch>
             </Router>
         )

@@ -13,37 +13,29 @@ function importAll(r) {
     return r.keys().map(r);
   }
   
-const images = importAll(require.context('../public/realizacje/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../public/prefabrykacja/', false, /\.(png|jpe?g|svg)$/));
 
 console.log(images);
 
-class Realizajce extends React.Component {
+class Prefabrykacja extends React.Component {
     render () {
         return (
             <div>
-                <Navbar pageName={'Realizacje'} />
+                <Navbar pageName={'Prefabrykacja'} />
                 <Grid container xs={12}>
                     <Grid item xs={11} style={{ padding: '30px 0' }}>
                         <Typography variant="h2" style={{ paddingBottom: '30px', textAlign: 'center' }}>
                             Almet-Tig
                         </Typography>
                         <Typography variant="body1" style={{ lineHeight: '2em', textAlign: 'center' }}>
-                        Specjalizujemy się w realizacji projektów w następujących branżach:
-                        <ul style={{ listStyle: 'none', marginTop: '20px' }}>
-                            <li>przemysł spożywczy</li>
-                            <li>przemysł mleczarski</li>
-                            <li>browarnictwo</li>
-                            <li>przemysł chemiczny</li>
-                            <li>przemysł farmaceutyczny</li>
-                            <li>branża kosmetyczna</li>
-                            <li>dla domu</li>
-                        </ul>
+                        Na naszym warsztacie produkcyjnym dysponujemy walcami do blachy o grubości 20m, gietarką do blach, spawarką orbitalną. W ostatnim czasie zakupiliśmy również urządzenie laserowe do wycinania elementów z blach, rur oraz profili o grubości do 28mm. Produkujemy również zbiorniki o pojemności do 16m3 oraz średnicy do 3m. Prefabrykujemy także, elementy rurociągów, elementy rurowe o dużym przekroju – kanały, skidy, bloki zaworowe (spawanie orbitalne), konstrukcje wsporcze rurociągów, platformy obsługowe i inne.
+                        
                         </Typography>
                         <Divider style={{ margin: '60px' }}/>
                         <Box>
                             <GridList cellHeight={200} cols={4} spacing={5}>
                                 <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '1.2em', textAlign: 'center' }}>Galeria Realizacji</ListSubheader>
+                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '1.2em', textAlign: 'center' }}>Galeria Prefabrykacji</ListSubheader>
                                 </GridListTile>
                             {images.map((el) => (
                                 <GridListTile cols={el.cols || 1}>
@@ -64,4 +56,4 @@ class Realizajce extends React.Component {
     }
 }
 
-export default Realizajce;
+export default Prefabrykacja;
