@@ -37,19 +37,19 @@ class Onas extends React.Component {
                         <Typography variant="h2" style={{ paddingBottom: '30px', textAlign: 'center' }}>
                             Almet-Tig
                         </Typography>
-                        <Typography variant="body1">
+                        <Typography variant="body1" style={{ lineHeight: '2em', textAlign: 'center' }}>
                         Nasza firma zajmuje się świadczeniem usług spawalniczych, głównie spawanie stali nierdzewnych, metodą TIG. Wykonujemy kompletne instalacje technologiczne oraz montaż i prefabrykację takich urządzeń jak zbiorniki, bloki zaworowe, układy pompowo zaworowe, skidy, platformy, suszarnie rozpyłowe, cyklony oraz wszelkiego rodzaju konstrukcje. Zatrudniamy profesjonalistów, a naszymi klientami są duże koncerny dostarczające technologię oraz armaturę procesową na całym świecie.
                         </Typography>
                         <Grid container xs={12} spacing={3}  style={{ padding: '30px 0' }} >
                             {Cechy.map((item) => (
                                 <Grid item xs={12} sm={6} md={4} >
-                                    <Card style={{ minHeight: '360px', border: '1px solid #999' }}>
-                                        <Box style={{ fontSize: '8em', textAlign: 'center' }}>
+                                    <Card style={{ minHeight: '370px', border: '1px solid #999' }}>
+                                        <Box style={{ fontSize: '8em', textAlign: 'center', color: '#ff9800' }}>
                                             {item.icon}
                                         </Box>
                                         
                                         <CardHeader title={item.name} style={{ textAlign: 'center', paddingTop: '10px' }} />
-                                        <Typography variant="body2" style={{ textAlign: 'center', paddingTop: '10px' }}>
+                                        <Typography variant="body2" style={{ textAlign: 'center', padding: '10px 20px', lineHeight: '1.6em' }}>
                                             {item.description}
                                         </Typography>
                                     </Card>

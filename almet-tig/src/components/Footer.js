@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid, Typography, Divider, TextField } from '@material-ui/core';
+import { Grid, Typography, Divider, TextField, Button, Box } from '@material-ui/core';
 
 class Footer extends React.Component {
     render () {
@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <Grid container xs={12} style={{ backgroundColor: '#1769aa', color: '#fff', display: 'flex', alignItems: 'flex-end', bottom: '0' }}>
 
                 <Grid item container xs={11} style={{ borderRadius: '20px', border: '1px solid #ddd', backgroundColor: '#1769aa', margin: '20px 0' }}>
-                    <Grid item xs={6} style={{ padding: '30px 20px', textAlign: 'center'}}>
+                    <Grid item xs={12} md={6} style={{ padding: '30px 20px', textAlign: 'center'}}>
                         <Typography variant="h6" style={{ color: '#ddd' }}>
                             ZADZWOŃ DO NAS!
                         </Typography>
@@ -28,13 +28,17 @@ class Footer extends React.Component {
                             NIP: 915 134 39 80<br />
                         </Typography>
                     </Grid>
-                    <Grid item xs={6}>
-                        <form noValidate autoComplete="off" style={{ color: '#fff', padding: '30px 70px' }}>
-                            <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', float: 'left', border: 'none', color: '#fff', marginBottom: '10px' }} />
-                            <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', float: 'left', border: 'none', color: '#fff', marginBottom: '10px' }} />
-                            <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', float: 'left', border: 'none', color: '#fff', marginBottom: '10px' }} />
-                            <TextField id="outlined-basic" label="Outlined" variant="outlined" style={{ backgroundColor: '#104773', float: 'left', border: 'none', color: '#fff', marginBottom: '10px' }} />
-                        </form>
+                    <Grid item xs={12} md={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row', flexWrap: 'nowrap' }}>
+                        <Box>
+                            <form noValidate autoComplete="off">
+                                <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginRight: '20px', width: '80%' }} />
+                                <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0' }}>Wyślij</Button>
+                            </form>
+                        </Box>
+                        
                     </Grid>
                 </Grid>
 
@@ -50,7 +54,7 @@ class Footer extends React.Component {
                         <Typography variant="h6">
                             Almet-Tig
                         </Typography>
-                        <Typography variant="body1">
+                        <Typography variant="body1" style={{ paddingTop: '10px' }}>
                             ul. Polna 22G<br />
                             Sułów 56-300<br />
                             NIP: 915 134 39 80<br />
@@ -58,10 +62,14 @@ class Footer extends React.Component {
                     </Grid>
                     <Grid item xs={6} >
                         <Typography variant="h6">
-                           O nas
+                           Usługi
                         </Typography>
                         <Typography variant="body1" style={{ textJustify: 'justify' }}>
-                        Nasza firma zajmuje się świadczeniem usług spawalniczych, głównie spawanie stali nierdzewnych, metodą TIG.
+                            <ul style={{ listStyle: 'none', paddingTop: '10px' }}>
+                                <li>Produkcja</li>
+                                <li>Montaż</li>
+                                <li>Doradztwo i nadzór</li>
+                            </ul>
                         </Typography>
                     </Grid>
                 </Grid>

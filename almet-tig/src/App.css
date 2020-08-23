@@ -18,5 +18,6 @@ a {
 }
 
 .MuiFormLabel-root {
-    color: #fff;
+    color: #fff !important;
+    border-radius: 5px !important;
 }
