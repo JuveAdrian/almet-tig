@@ -38,7 +38,16 @@ class Onas extends React.Component {
                             Almet-Tig
                         </Typography>
                         <Typography variant="body1" style={{ lineHeight: '2em', textAlign: 'center' }}>
-                        Nasza firma zajmuje się świadczeniem usług spawalniczych, głównie spawanie stali nierdzewnych, metodą TIG. Wykonujemy kompletne instalacje technologiczne oraz montaż i prefabrykację takich urządzeń jak zbiorniki, bloki zaworowe, układy pompowo zaworowe, skidy, platformy, suszarnie rozpyłowe, cyklony oraz wszelkiego rodzaju konstrukcje. Zatrudniamy profesjonalistów, a naszymi klientami są duże koncerny dostarczające technologię oraz armaturę procesową na całym świecie.
+                        Jesteśmy młodą firmą na polskim rynku ale doświadczenie które posiadamy oraz wiedze w zakresie
+budowania i spawania instalacji technologicznych w przemyśle spożywczym , chemicznym oraz wielu
+innych gałęziach przemysłu . Kadra pracownicza posiada wszystkie uprawnienia spawalnicze oraz
+zakresie bhp którą cały czas doszkalamy . Doświadczenie jakie nabyliśmy jako firma to praca dla
+największych korporacji na świecie zajmujących się instalacjami technologicznymi , takimi jak GEA ,
+ACO SICCA DANIA , SACOFRINA , INSS-POL, i wiele innych firm które są wiodącymi markami w Europie
+i nie tylko. Pracowaliśmy dla nich na kontraktach w całej Europie oraz na innych kontynentach . Po
+ponad 10 latach zbierania doświadczenia wyżej wymienionych firmach postanowiliśmy stworzyć
+ALMET-TIG który dzięki wiedzy oraz zaangażowaniu z rzesza najlepszą kadre spawalniczą .<br />
+<strong>Zapraszamy do Współpracy </strong>
                         </Typography>
                         <Grid container xs={12} spacing={3}  style={{ padding: '30px 0' }} >
                             {Cechy.map((item) => (

@@ -28,7 +28,12 @@ class Prefabrykacja extends React.Component {
                             Almet-Tig
                         </Typography>
                         <Typography variant="body1" style={{ lineHeight: '2em', textAlign: 'center' }}>
-                        Na naszym warsztacie produkcyjnym dysponujemy walcami do blachy o grubości 20m, gietarką do blach, spawarką orbitalną. W ostatnim czasie zakupiliśmy również urządzenie laserowe do wycinania elementów z blach, rur oraz profili o grubości do 28mm. Produkujemy również zbiorniki o pojemności do 16m3 oraz średnicy do 3m. Prefabrykujemy także, elementy rurociągów, elementy rurowe o dużym przekroju – kanały, skidy, bloki zaworowe (spawanie orbitalne), konstrukcje wsporcze rurociągów, platformy obsługowe i inne.
+                            Leasing pracowników wraz z całym sprzętem montersko spawalniczym . Posiadamy własny warsztat
+                            w którym dzięki nowoczesnemu sprzętowi jesteśmy w stanie wytwarzać zbiorniki do 16m3 .
+                            Posiadamy spawarki orbitalne dzięki którym jesteśmy wykonywać najwyższej jakości spoiny dla
+                            przemysłu Farmaceutycznego , spożywczego , chemicznego dla różnych bloków zaworowych i
+                            prefabrykacji izometryków . Posiadamy Walce na których jesteśmy w stanie walcować blachy o
+                            grubości do 20mm . Oferujemy również usługi cięcia laserem oraz CNC .
                         
                         </Typography>
                         <Divider style={{ margin: '60px' }}/>
