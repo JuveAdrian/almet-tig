@@ -21,3 +21,7 @@ a {
     color: #fff !important;
     border-radius: 5px !important;
 }
+
+.MuiInputBase-input {
+    color: #fff !important;
+}

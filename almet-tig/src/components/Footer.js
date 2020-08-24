@@ -34,7 +34,7 @@ class Footer extends React.Component {
                                 <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
                             </form>
                         </Box>
