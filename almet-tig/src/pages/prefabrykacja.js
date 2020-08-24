@@ -40,7 +40,7 @@ class Prefabrykacja extends React.Component {
                         <Box>
                             <GridList cellHeight={200} cols={4} spacing={5}>
                                 <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '1.2em', textAlign: 'center' }}>Galeria Prefabrykacji</ListSubheader>
+                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '2em', textAlign: 'center' }}>Galeria Prefabrykacji</ListSubheader>
                                 </GridListTile>
                             {images.map((el) => (
                                 <GridListTile cols={el.cols || 1}>

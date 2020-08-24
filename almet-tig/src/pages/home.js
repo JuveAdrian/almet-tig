@@ -9,6 +9,10 @@ import HomeIcon from '@material-ui/icons/Home';
 import BuildIcon from '@material-ui/icons/Build';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
+import jumbofoto from '../public/glowna/jumbo.jpg';
+import tarczysnki from '../public/referenecje/Tarczyński_Group_Logo.png';
+import tarczynskiPdf from '../public/referenecje/tarczynski.pdf';
+
 const Cechy = [
     {
         icon: <HomeIcon style={{ fontSize: '80px' }} />,
@@ -33,6 +37,19 @@ class Home extends React.Component {
             <div style={{ height: '100vh' }}>
                 <Navbar pageName={'Strona Główna'} />
                 <Grid container xs={12}>
+                    <Grid item xs={11} 
+                        style={{ 
+                            height: '500px', 
+                            width: '100%',
+                            background: `url(${jumbofoto})`,
+                            backgroundPosition: 'center'
+                        }}>
+                        <Typography variant="h3" style={{ color: '#fff', display: 'flex', justifyContent: 'center', textAlign: 'center', backgroundColor: 'rgba(255,255,255,0.4)', margin: '15% 10%' }}>
+                            ALMET-TIG <br /> DOSKONAŁOŚĆ W KAŻDYM CALU
+                        </Typography>
+                    </Grid>
+
+
                     <Grid item xs={11} style={{ padding: '30px 0' }}>
                         <Typography variant="h2" style={{ paddingBottom: '30px', textAlign: 'center' }}>
                             Almet-Tig
@@ -58,6 +75,15 @@ class Home extends React.Component {
                             ))}
                         </Grid>
                     </Grid> 
+                    <Grid item xs={11} style={{ padding: '30px 0' }}>
+                        <Typography variant="h4" style={{ paddingBottom: '30px', textAlign: 'center' }}>
+                                Pracujemy dla najlepszych
+                        </Typography>
+                        <Box style={{ display: 'flex', justifyContent: 'center' }}>
+                            <a href={tarczynskiPdf} ><img src={tarczysnki} style={{ width: '200px' }} /></a>
+                        </Box>
+                        
+                    </Grid>
                 </Grid>
                 <Footer />
             </div>
