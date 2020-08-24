@@ -20,6 +20,10 @@ import {
 } from '@material-ui/icons';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import MenuIcon from '@material-ui/icons/Menu';
+import InfoIcon from '@material-ui/icons/Info';
+import BuildIcon from '@material-ui/icons/Build';
+import BorderColorIcon from '@material-ui/icons/BorderColor';
+import StyleIcon from '@material-ui/icons/Style';
 
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
@@ -46,22 +50,22 @@ const menuItems = [
         listLink: '/'
     },
     {
-        listIcon: <Home />,
+        listIcon: <InfoIcon />,
         listText: 'O nas',
         listLink: '/o-nas'
     },
     {
-        listIcon: <Home />,
+        listIcon: <BuildIcon />,
         listText: 'Realizacje',
         listLink: '/realizacje'
     },
     {
-        listIcon: <Home />,
+        listIcon: <BorderColorIcon />,
         listText: 'Projektowanie',
         listLink: '/projektowanie'
     },
     {
-        listIcon: <Home />,
+        listIcon: <StyleIcon />,
         listText: 'Prefabrykacja',
         listLink: '/prefabrykacja'
     },
