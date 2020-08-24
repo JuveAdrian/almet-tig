@@ -34,7 +34,7 @@ class DlaDomu extends React.Component {
                         <Box>
                             <GridList cellHeight={200} cols={4} spacing={5}>
                                 <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '2em', textAlign: 'center' }}>Galeria Dla Domu</ListSubheader>
+                                    <ListSubheader component="div" style={{ color: '#000', fontSize: '2em', textAlign: 'center' }}>Galeria dla domu</ListSubheader>
                                 </GridListTile>
                             {images.map((el) => (
                                 <GridListTile cols={el.cols || 1}>

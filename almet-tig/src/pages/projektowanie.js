@@ -18,7 +18,7 @@ class Projektowanie extends React.Component {
                         <Typography variant="body1" style={{ lineHeight: '2em', textAlign: 'center' }}>
                         Firma ALMET-TIG zajmuje się również projektowaniem: procesów technologicznych, rurociągów, bloków zaworowych, skidów, zbiorników, platform i konstrukcji wsporczych wraz z obliczeniami statyczno-wytrzymałościowymi. Nasi projektanci są członkami EHEDG (Europejskie Stowarzyszenie Inżynierów, Projektantów i Konstruktorów).
                         <br /><br />
-                        Nasi projektanci są w stanie wykonać:
+                        <strong>Nasi projektanci są w stanie wykonać:</strong>
                         <Divider />
                         <ul style={{ listStyle: 'none', marginTop: '20px' }}>
                             <li>Projektowanie procesu technologicznego</li>
