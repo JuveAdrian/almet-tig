@@ -39,7 +39,7 @@ class DlaDomu extends React.Component {
                             {images.map((el) => (
                                 <GridListTile cols={el.cols || 1}>
                                     <Zoom zoomMargin={40}>
-                                        <img src={el} style={{ width: '100%'}} />
+                                        <img src={el} alt={el} style={{ width: '100%'}} />
                                     </Zoom>
                                    
                                 </GridListTile>

@@ -16,12 +16,7 @@ import {
     Typography
 } from '@material-ui/core';
 import {
-   ArrowBack,
-   Person,
-   Home,
-   Apps,
-   Build,
-   Info 
+   Home
 } from '@material-ui/icons';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import MenuIcon from '@material-ui/icons/Menu';

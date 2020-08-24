@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-import { Grid, Card, CardHeader, CardContent, Typography, Box } from '@material-ui/core';
+import { Grid, Card, CardHeader, Typography, Box } from '@material-ui/core';
 
 import HomeIcon from '@material-ui/icons/Home';
 import BuildIcon from '@material-ui/icons/Build';
