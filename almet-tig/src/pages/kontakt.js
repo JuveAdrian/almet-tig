@@ -33,12 +33,23 @@ class Kontakt extends React.Component {
                         e-mail: <strong>almet-tig@almet-tig.pl</strong><br />
                         </Typography>
                         <Divider style={{ margin: '30px 0' }} />
-                        <form noValidate autoComplete="off" style={{ marginBottom: '40px' }}>
-                                <TextField id="outlined-basic" label="Imię i nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                        <form noValidate autoComplete="off" action="mailto:grabkowski.adrian@gmail.com" method="post" style={{ marginBottom: '40px' }}>
+                                <TextField id="outlined-basic" label="Imię i nazwisko" type="input" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <TextField id="outlined-basic" label="Treść" variant="outlined" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
+                                <Button
+                                variant="contained"
+                                component="label"
+                                style={{ float: 'left' }}
+                                >
+                                Upload File
+                                <input
+                                    type="files"
+                                    style={{ display: "none" }}
+                                />
+                                </Button>
+                                <Button label={'Wyślij'} type="submit" style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
                             </form>
                     </Grid>
                 </Grid>
