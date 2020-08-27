@@ -25,6 +25,8 @@ import BuildIcon from '@material-ui/icons/Build';
 import BorderColorIcon from '@material-ui/icons/BorderColor';
 import StyleIcon from '@material-ui/icons/Style';
 
+import pageLogo from '../logo.png'
+
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
         width: 250,
@@ -95,7 +97,7 @@ const Navbar = (props) => {
     const sideList = slider => (
         <Box className={ classes.menuSliderContainer } component="div" onClick={toogleSlider(slider, false)} >
             <Link to='/'>
-                <Avatar className={classes.avatar}  alt="avatar" />
+                <Avatar className={classes.avatar} src={pageLogo}  alt="avatar" />
             </Link>
             <Divider />
             <List>

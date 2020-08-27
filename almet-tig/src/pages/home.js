@@ -80,7 +80,7 @@ class Home extends React.Component {
                                 Pracujemy dla najlepszych
                         </Typography>
                         <Box style={{ display: 'flex', justifyContent: 'center' }}>
-                            <a href={tarczynskiPdf} ><img src={tarczysnki} style={{ width: '200px' }} /></a>
+                            <a href={tarczynskiPdf} ><img src={tarczysnki} alt={'tarczynski'} style={{ width: '200px' }} /></a>
                         </Box>
                         
                     </Grid>
