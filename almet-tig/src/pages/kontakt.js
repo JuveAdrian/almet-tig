@@ -34,10 +34,10 @@ class Kontakt extends React.Component {
                         </Typography>
                         <Divider style={{ margin: '30px 0' }} />
                         <form noValidate autoComplete="off" action="mailto:grabkowski.adrian@gmail.com" method="post" style={{ marginBottom: '40px' }}>
-                                <TextField id="outlined-basic" label="Imię i nazwisko" type="input" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Treść" variant="outlined" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="imie_i_nazwisko" label="Imię i nazwisko" type="input" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="email" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="telefon" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="tresc" label="Treść" variant="outlined" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
                                 <Button
                                 variant="contained"
                                 component="label"
@@ -45,7 +45,8 @@ class Kontakt extends React.Component {
                                 >
                                 Upload File
                                 <input
-                                    type="files"
+                                    type="file"
+                                    name="plik"
                                     style={{ display: "none" }}
                                 />
                                 </Button>

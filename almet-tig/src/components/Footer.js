@@ -30,12 +30,12 @@ class Footer extends React.Component {
                     </Grid>
                     <Grid item xs={12} md={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row', flexWrap: 'nowrap' }}>
                         <Box>
-                            <form noValidate autoComplete="off" style={{ marginBottom: '40px' }}>
-                                <TextField id="outlined-basic" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <TextField id="outlined-basic" label="Treść" variant="outlined" size="medium" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
-                                <Button label={'Wyślij'} style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
+                            <form noValidate autoComplete="off" action="mailto:grabkowski.adrian@gmail.com" method="post" style={{ marginBottom: '40px' }}>
+                                <TextField id="outlined-basic" name="imie_i_nazwisko" label="Imię i Nazwisko" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="email" label="Email" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="telefon" label="Telefon" variant="outlined" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <TextField id="outlined-basic" name="tresc" label="Treść" variant="outlined" size="medium" multiline="true" rows="6" style={{ backgroundColor: '#104773', border: 'none', color: '#fff', marginBottom: '20px', marginLeft: '10%', width: '80%' }} />
+                                <Button label={'Wyślij'} type="submit" style={{ backgroundColor: '#ff9800', width: '80%', color: '#fff', fontWeight: 'bold', padding: '10px 0', marginLeft: '10%' }}>Wyślij</Button>
                             </form>
                         </Box>
                         
