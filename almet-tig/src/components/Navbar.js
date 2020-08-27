@@ -97,7 +97,7 @@ const Navbar = (props) => {
     const sideList = slider => (
         <Box className={ classes.menuSliderContainer } component="div" onClick={toogleSlider(slider, false)} >
             <Link to='/'>
-                <Avatar className={classes.avatar} src={pageLogo}  alt="avatar" />
+                <img src={pageLogo} alt="logo" style={{ width: '240px', padding: '30px 5px' }} />
             </Link>
             <Divider />
             <List>

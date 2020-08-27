@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Grid, Typography, Divider, TextField, Button, Box } from '@material-ui/core';
 
+import pageLogo from '../logo.png'
+
 class Footer extends React.Component {
     render () {
         return (
@@ -45,7 +47,7 @@ class Footer extends React.Component {
 
                 <Grid item xs={10}  md={6} style={{ padding: '20px 30px' }}>
                 <Typography variant="h2">
-                        Almet-Tig
+                        <img src={pageLogo} style={{ width: '80%' }} alt="logo" />
                     </Typography>
                     
                 </Grid>
